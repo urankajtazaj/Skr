@@ -8,9 +8,9 @@ $(".button").click(function() {
 
     var fontSize = Math.random() * 100 + 16;
 
-    // =======================================
-
     var deg = Math.random() < 0.5 ? -rotateDeg : rotateDeg;
+
+    // =======================================
 
     $(this).css("transform", "rotate(" + deg + "deg)");
     $(this).animate({
@@ -32,6 +32,8 @@ $(".button").click(function() {
         marginTop: -top,
         fontSize: fontSize,
         opacity: 0
-    }, 500);
+    }, 500, "swing", function() {
+        $(".skr").hide();
+    });
 
 });

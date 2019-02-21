@@ -1,0 +1,37 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-area {
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.button {
+    transition: 100ms ease;
+    padding: 20px 35px;
+    background-color: #e74141;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.skr {
+    position: absolute;
+    font-weight: bold;
+    color: #e74141;
+    width: 100%;
+}
+
+.fly {
+    animation-name: moveSkr;
+    animation-duration: 1s;
+    text-align: center;
+}

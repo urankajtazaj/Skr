@@ -1,10 +1,11 @@
 $(".button").click(function() {
 
     var rotateDeg = 20;
+    var moveDistance = 300;
     var skrString = "Skr";
 
-    var left = Math.random() > 0.5 ? Math.random() * -300 - 20 : Math.random() * 300 + 20;
-    var top = Math.random() > 0.5 ? Math.random() * -300 - 20 : Math.random() * 300 + 20; 
+    var left = Math.random() > 0.5 ? Math.random() * -moveDistance - 20 : Math.random() * moveDistance + 20;
+    var top = Math.random() > 0.5 ? Math.random() * -moveDistance - 20 : Math.random() * moveDistance + 20; 
 
     var fontSize = Math.random() * 100 + 16;
 

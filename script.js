@@ -23,7 +23,7 @@ $(".button").click(function() {
         skrString += "r";
     }
 
-    skrString += "a";
+    skrString += "t";
 
     $(".button-area").prepend("<p class='skr'>" + skrString + "</p>");
 

@@ -33,7 +33,7 @@ $(".button").click(function() {
         fontSize: fontSize,
         opacity: 0
     }, 500, "swing", function() {
-        $(".skr").hide();
+        $(this).hide();
     });
 
 });
